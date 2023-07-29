@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Parallax site</title>
+</head>
+<body>
+    <header>
+        <a href=""><img src="./logo.png" alt=""></a>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Service</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </header>
+
+    <section id="home">
+         <img src="./earth-removebg-preview.png" alt="" id="earth">
+         <img src="./satellite.png" alt="" id="satelite">
+    </section>
+    <h1 id="head1">Space Explore</h1>
+
+    <section id="content">
+           <h2>PARALLAX WEBSITE EFFECT</h2>
+           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores perspiciatis odit, velit quisquam quam accusantium distinctio molestiae? Consectetur perspiciatis in totam architecto quam, quis vel doloribus iusto alias veniam optio? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit temporibus maxime officiis eaque cumque natus deserunt saepe laborum quas aperiam quidem est id rem accusamus reiciendis, nulla eius officia reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum blanditiis ducimus hic, unde cupiditate placeat aperiam aut sequi? Blanditiis labore delectus nesciunt sed mollitia, aperiam quasi doloremque debitis facilis placeat?Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima a consequatur sapiente neque explicabo iste excepturi alias corrupti voluptatum non incidunt quisquam delectus, quo fuga quam asperiores necessitatibus accusantium quibusdam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione sapiente perspiciatis a sunt excepturi nemo eius vel suscipit fugit nam doloremque consequuntur, consequatur similique blanditiis soluta adipisci aperiam cumque! Placeat?</p>
+           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores perspiciatis odit, velit quisquam quam accusantium distinctio molestiae? Consectetur perspiciatis in totam architecto quam, quis vel doloribus iusto alias veniam optio? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit temporibus maxime officiis eaque cumque natus deserunt saepe laborum quas aperiam quidem est id rem accusamus reiciendis, nulla eius officia reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum blanditiis ducimus hic, unde cupiditate placeat aperiam aut sequi? Blanditiis labore delectus nesciunt sed mollitia, aperiam quasi doloremque debitis facilis placeat?Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima a consequatur sapiente neque explicabo iste excepturi alias corrupti voluptatum non incidunt quisquam delectus, quo fuga quam asperiores necessitatibus accusantium quibusdam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione sapiente perspiciatis a sunt excepturi nemo eius vel suscipit fugit nam doloremque consequuntur, consequatur similique blanditiis soluta adipisci aperiam cumque! Placeat?</p>
+           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores perspiciatis odit, velit quisquam quam accusantium distinctio molestiae? Consectetur perspiciatis in totam architecto quam, quis vel doloribus iusto alias veniam optio? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit temporibus maxime officiis eaque cumque natus deserunt saepe laborum quas aperiam quidem est id rem accusamus reiciendis, nulla eius officia reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum blanditiis ducimus hic, unde cupiditate placeat aperiam aut sequi? Blanditiis labore delectus nesciunt sed mollitia, aperiam quasi doloremque debitis facilis placeat?Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima a consequatur sapiente neque explicabo iste excepturi alias corrupti voluptatum non incidunt quisquam delectus, quo fuga quam asperiores necessitatibus accusantium quibusdam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione sapiente perspiciatis a sunt excepturi nemo eius vel suscipit fugit nam doloremque consequuntur, consequatur similique blanditiis soluta adipisci aperiam cumque! Placeat?</p>
+    </section>
+
+    
+    
+    
+</body>
+<script>
+    let earth = document.getElementById('earth');
+    let satelite=document.getElementById('satelite');
+    let head1=document.getElementById('head1');
+
+    window.addEventListener('scroll', function(){
+        let value = window.scrollY;
+        earth.style.marginLeft = value * -0.25 + 'px';
+        head1.style.marginRight = value * -0.25 + 'px';
+    })
+</script>
+</html>

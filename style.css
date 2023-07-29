@@ -1,0 +1,66 @@
+*{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: url(./bg-home.jpg) no-repeat;
+    overflow-x: hidden;
+}
+header{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+img{
+    width: 25%;
+    margin-left: 50px;
+}
+ul{
+    display: flex;
+    float: right;
+    margin-right: 120px;
+    
+}
+ul li{
+    list-style: none;
+    padding: 1rem;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 4px 8px 4px 8px;
+    border-radius: 22px;
+}
+ul li a:hover {
+    background-color: crimson;
+}
+#earth{
+    width: 28%;
+    margin-left: -20px;
+}
+#satelite{
+    float: right;
+    margin: -40% 4% 0px 4%;
+}
+#head1{
+    text-align: center;
+    margin-top: -400px;
+    font-size: 80px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+#content{
+    position: relative;
+    padding: 100px;
+    
+margin-top: 305px;
+    background-color: brown;
+}
+h2{
+    font-size: 30px;
+    color: white;
+}
+
+
